@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 from time import sleep
 import csv
 
-ckey = 'GIVIpuGJkELgmPWEvOtO1CpFI'
-csecret = 'I7BZV8LCBm88fA4Qr54IsU3LvzwKpimHb7h5DmbWvyQIdYlOIQ'
-atoken = '871426368-lW9WVKfZpyVychFtyLSUHWQOcDFi7KsYDuwh2bCt'
-asecret = 'sTHo8oLeQ80c0jJ7oKXGm5P1MKnA2VoYoFqY9q7zPK3rV' 
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = '' 
 
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
